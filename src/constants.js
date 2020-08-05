@@ -2,7 +2,7 @@ import twitterPhoto from "./images/twitter.png";
 import simpsonsPhoto from "./images/simpsons.png";
 import battleshipPhoto from "./images/battleship.png";
 
-export const constants = {
+export const projects = {
   TWITTER_CLONE: {
     name: "Twitter Clone",
     description:
@@ -27,3 +27,24 @@ export const constants = {
     photo: battleshipPhoto,
   },
 };
+
+export const testimonials = [
+  {
+    name: "Fan",
+    title: "CEO, Blank Label",
+    text:
+      "n a fast-moving world, it's great to have someone like Jake who has a demonstrated track record of being adaptive to new challenges. In the span of a few years, he started as client-facing sales person, grew to manage people, and ended up creating a brand new inside sales program from scratch that is now at the core of our business strategy. The best part is throughout all of this he was very proactive, resourceful and able to learn on his own.",
+  },
+  {
+    name: "Paige",
+    title: "President, Blank Label",
+    text:
+      "Jake is a passionate, committed and detail-oriented professional. At his time at Blank Label Jake spearheaded a new program that has changed the way we view inside sales. His performance was consistently top notch and I would not hesitate to work with him on any project big or small. His adaptability and problem solving capabilities made him a huge asset to our team. ",
+  },
+  {
+    name: "Connor",
+    title: "Director of Operations, Blank Label",
+    text:
+      "Strong, analytical problem-solving skills were the cornerstone of his successes. Always prepared to back up his decisions with well thought out arguments and knowledge. Worked collaboratively across teams to build, teach, and implement a successful inside sales strategy that reshaped the entire business model at Blank Label. Extremely reliable and hard-working, and a great teammate to have in the office. Would recommend without hesitation.",
+  },
+];
