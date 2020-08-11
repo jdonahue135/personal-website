@@ -2,24 +2,47 @@ import React from "react";
 import "../styles/App.css";
 
 import Navbar from "./Navbar";
-import WorkItem from "./WorkItem";
+import About from "./About";
+import Work from "./Work";
+import Contact from "./Contact";
+
+import mongoDBLogo from "../images/mongoDB.png";
+import expressLogo from "../images/express.png";
+import reactLogo from "../images/react.png";
+import nodeLogo from "../images/node.png";
+import awsLogo from "../images/aws.png";
 
 const App = (props) => {
+  const topLogos = [reactLogo, nodeLogo, awsLogo];
+  const bottomLogos = [mongoDBLogo, expressLogo];
   return (
     <div className="App">
       <Navbar />
       <div className="main">
         <div className="headline-container">
-          <div className="headline">I'm Jake</div>
-          <div className="sub-headline">A web developer from Boston.</div>
+          <div className="headline">Hello, my name is Jake Donahue.</div>
+          <div className="sub-headline">
+            I am a software developer specializing in creating{" "}
+            <span className="highlight">dynamic, full-stack</span> web
+            applications.
+          </div>
         </div>
-        <div className="arrow" />
+        <div className="logos-container">
+          {topLogos.map((logo) => (
+            <img className="tech-logo-sm" key={logo} src={logo} alt="logo" />
+          ))}
+          <div className="lg-logos-container">
+            {bottomLogos.map((logo) => (
+              <img className="tech-logo-lg" key={logo} src={logo} alt="logo" />
+            ))}
+          </div>
+        </div>
       </div>
-      <div className="work-container">
-        <WorkItem name="Twitter Clone" />
-        <WorkItem name="Simpsons Waldo" />
-        <WorkItem name="Battleship" />
-      </div>
+      <Contact />
+      <About />
+      <Contact />
+      <Work />
+      <Contact />
     </div>
   );
 };
