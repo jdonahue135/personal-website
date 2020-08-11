@@ -7,7 +7,9 @@ const Contact = (props) => {
         Send an email about your project and I will get back to you within 24
         hours.
       </div>
-      <button className="contact-btn">Email me</button>
+      <a href="mailto:jdonahue135@gmail.com">
+        <button className="contact-btn">Email me</button>
+      </a>
     </div>
   );
 };
