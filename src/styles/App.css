@@ -66,6 +66,7 @@ img {
   background-color: rgb(228, 251, 239);
   width: 75vw;
   margin: 15px;
+  margin-bottom: 25px;
   position: relative;
   left: 10vw;
   border-radius: 10px;
@@ -73,22 +74,39 @@ img {
 .contact-text {
   display: inline-block;
 }
+.btn-container {
+  position: relative;
+  bottom: 9px;
+  float: right;
+}
 .contact-btn {
   border: none;
   background-color: rgb(18, 146, 79);
   color: white;
   padding: 10px;
+  margin-left: 10px;
   font-weight: 800;
-  float: right;
   cursor: pointer;
   border-radius: 5px;
-  position: relative;
-  bottom: 9px;
 }
 .contact-btn:focus {
   outline: none;
 }
-
+.contact-message {
+  position: absolute;
+  margin-top: 10px;
+  left: 115px;
+  font-size: 12px;
+  background-color: grey;
+  color: white;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 3px;
+  display: none;
+}
+.show {
+  display: block;
+}
 .about {
   float: left;
 }
@@ -274,6 +292,12 @@ img {
     font-size: 20px;
   }
 }
+.email {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
 .work-item-about-container {
   text-align: center;
   display: inline-block;
@@ -296,15 +320,18 @@ img {
 .link-container:hover .link-text {
   text-decoration: underline;
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 925px) {
   .contact-container {
     text-align: center;
     margin-left: 0;
   }
-  .contact-btn {
-    float: none;
+  .btn-container {
     position: unset;
     margin-top: 10px;
+    float: none;
+  }
+  .contact-message {
+    left: 41vw;
   }
   .about-main {
     text-align: center;
