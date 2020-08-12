@@ -38,11 +38,11 @@ const App = (props) => {
           </div>
         </div>
       </div>
-      <Contact />
+      <Contact id="0" />
       <About />
-      <Contact />
+      <Contact id="1" />
       <Work />
-      <Contact />
+      <Contact id="2" />
     </div>
   );
 };
