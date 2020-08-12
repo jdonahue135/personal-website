@@ -28,8 +28,8 @@ const About = (props) => {
             to any web development project.
             <br />
             <br />I spend my free time cooking, playing golf, working out and
-            traveling. I'm located in Boston, but will be living in different
-            remote areas of the country for the rest of 2020.
+            traveling. I'm located in Boston, but will be living on the West
+            Coast for the rest of 2020.
           </div>
           <div className="location-container">
             <div className="location">Jake is currently in </div>
