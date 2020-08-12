@@ -294,7 +294,6 @@ img {
 }
 .email {
   position: absolute;
-  left: 0;
   opacity: 0;
   z-index: -1;
 }

@@ -36,6 +36,12 @@ const Contact = (props) => {
           Email copied to clipboard.
         </div>
       </div>
+      <input
+        type="text"
+        value="jdonahue135@gmail.com"
+        readOnly={true}
+        className="email"
+      />
     </div>
   );
 };
