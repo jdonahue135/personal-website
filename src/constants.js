@@ -8,18 +8,29 @@ import connorPhoto from "./images/connor.jpeg";
 export const projects = {
   TWITTER_CLONE: {
     name: "Twitter Clone",
+    description:
+      "A Full stack implementation of Twitter's core functionality and style.",
+    skills: [
+      "RESTful API",
+      "Authentication and protected routes",
+      "CRUD Operations",
+    ],
     github: "https://github.com/jdonahue135/odin-twitter",
     live: "https://afternoon-fjord-78280.herokuapp.com/home",
     photo: twitterPhoto,
   },
   SIMPSONS_WALDO: {
     name: "Where's Waldo: The Simpsons",
+    description: "A photo-tagging app based on the children's game.",
+    skills: ["DOM Manipulation", "Validation", "API requests"],
     github: "https://github.com/jdonahue135/wheres-waldo",
     live: "https://infinite-headland-08203.herokuapp.com/",
     photo: simpsonsPhoto,
   },
   BATTLESHIP: {
     name: "Battleship",
+    description: "A single page application based on the board game.",
+    skills: ["Test Driven Development", "DOM Manipulation", "OOP Principles"],
     github: "https://github.com/jdonahue135/battleship",
     live: "https://jdonahue135.github.io/battleship/",
     photo: battleshipPhoto,
