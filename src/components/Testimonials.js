@@ -4,6 +4,7 @@ import { testimonials } from "../constants";
 const Testimonials = (props) => {
   return (
     <div className="testimonials-container">
+      <div className="headline testimonials-headline">References</div>
       <div className="testimonial">
         <div className="testimonial-text">
           {'"' + testimonials[0].text + '"'}
