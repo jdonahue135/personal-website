@@ -27,17 +27,17 @@ class App extends React.Component {
     if (e.target.id === "about") {
       this.aboutRef.current.scrollIntoView({
         behavior: "smooth",
-        block: "nearest",
+        block: "start",
       });
     } else if (e.target.id === "experience") {
       this.workRef.current.scrollIntoView({
         behavior: "smooth",
-        block: "nearest",
+        block: "start",
       });
     } else {
       this.contactRef.current.scrollIntoView({
         behavior: "smooth",
-        block: "nearest",
+        block: "end",
       });
     }
   }
@@ -48,7 +48,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <Navbar />
+        <Navbar onClick={this.scrollToComponent.bind(this)} />
         <div className="main">
           <div className="headline-container">
             <div className="headline">Hello, my name is Jake Donahue.</div>
@@ -74,17 +74,16 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        <div ref={this.aboutRef}>
+        <div className="scroll-component" ref={this.aboutRef}>
           <About />
         </div>
         <Contact />
-        <div id="scroll-component" ref={this.workRef}>
+        <div className="scroll-component" ref={this.workRef}>
           <Work />
         </div>
         <Testimonials />
-        <div ref={this.workRef}>
-          <Footer />
-        </div>
+        <Footer />
+        <div ref={this.contactRef} />
       </div>
     );
   }
