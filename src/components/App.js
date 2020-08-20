@@ -8,7 +8,7 @@ import Contact from "./Contact";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 
-import mongoDBLogo from "../images/mongoDB.png";
+import mongoDBLogo from "../images/mongodb.png";
 import expressLogo from "../images/express.png";
 import reactLogo from "../images/react.png";
 import nodeLogo from "../images/node.png";
