@@ -1,4 +1,5 @@
 import twitterPhoto from "./images/twitter.png";
+import todoPhoto from "./images/todo-list.png";
 import simpsonsPhoto from "./images/simpsons.png";
 import battleshipPhoto from "./images/battleship.png";
 import fanPhoto from "./images/fan.jpeg";
@@ -18,6 +19,14 @@ export const projects = {
     github: "https://github.com/jdonahue135/odin-twitter",
     live: "https://afternoon-fjord-78280.herokuapp.com/home",
     photo: twitterPhoto,
+  },
+  TODO_LIST: {
+    name: "React Todo List",
+    description: "A Full stack implementation of a todo list.",
+    skills: ["Dynamic UI", "Data Synchronization", "CRUD Operations"],
+    github: "https://github.com/jdonahue135/todo-list",
+    live: "https://shielded-mesa-41166.herokuapp.com/",
+    photo: todoPhoto,
   },
   SIMPSONS_WALDO: {
     name: "Where's Waldo: The Simpsons",

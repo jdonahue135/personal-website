@@ -7,6 +7,7 @@ const Work = (props) => {
     <div className="work-container">
       <div className="headline work-headline">My Work</div>
       <WorkItem name="Twitter Clone" />
+      <WorkItem name="Todo List" />
       <WorkItem name="Simpsons Waldo" />
       <WorkItem name="Battleship" />
     </div>
