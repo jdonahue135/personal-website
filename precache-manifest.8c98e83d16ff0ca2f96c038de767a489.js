@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa5b563d8e4fd88768fa00ac79adb737",
+    "revision": "3b1e2c28a34c520646c7f3fa299783c4",
     "url": "/index.html"
   },
   {
-    "revision": "245b41e09eb657598008",
+    "revision": "b866dbaff2ae3f1a0e3e",
     "url": "/static/css/main.28711a43.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.cc86af44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "245b41e09eb657598008",
-    "url": "/static/js/main.1bd2d226.chunk.js"
+    "revision": "b866dbaff2ae3f1a0e3e",
+    "url": "/static/js/main.d721f4a2.chunk.js"
   },
   {
     "revision": "f139b624154a37532bb8",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/simpsons.9f5c343d.png"
   },
   {
-    "revision": "1256bf1a5f22ce483021afd47ecd75d5",
-    "url": "/static/media/todo-list.1256bf1a.png"
+    "revision": "7d6eb3bc0da83f48d360392af0903679",
+    "url": "/static/media/to-do-list.7d6eb3bc.png"
   },
   {
     "revision": "0681ef7edd6db134099657ce6861c661",
