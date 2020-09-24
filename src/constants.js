@@ -1,5 +1,5 @@
 import twitterPhoto from "./images/twitter.png";
-import todoPhoto from "./images/todo-list.png";
+import toDoPhoto from "./images/to-do-list.png";
 import simpsonsPhoto from "./images/simpsons.png";
 import battleshipPhoto from "./images/battleship.png";
 import fanPhoto from "./images/fan.jpeg";
@@ -21,12 +21,12 @@ export const projects = {
     photo: twitterPhoto,
   },
   TODO_LIST: {
-    name: "React Todo List",
-    description: "A Full stack implementation of a todo list.",
+    name: "React To-Do List",
+    description: "A Full stack implementation of a to-do list.",
     skills: ["Dynamic UI", "Data Synchronization", "CRUD Operations"],
-    github: "https://github.com/jdonahue135/todo-list",
+    github: "https://github.com/jdonahue135/to-do-list",
     live: "https://shielded-mesa-41166.herokuapp.com/",
-    photo: todoPhoto,
+    photo: toDoPhoto,
   },
   SIMPSONS_WALDO: {
     name: "Where's Waldo: The Simpsons",
