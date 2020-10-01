@@ -2,6 +2,7 @@ import twitterPhoto from "./images/twitter.png";
 import toDoPhoto from "./images/to-do-list.png";
 import simpsonsPhoto from "./images/simpsons.png";
 import battleshipPhoto from "./images/battleship.png";
+import pomodoroPhoto from "./images/pomodoro.png";
 import fanPhoto from "./images/fan.jpeg";
 import paigePhoto from "./images/paige.jpeg";
 import connorPhoto from "./images/connor.jpeg";
@@ -43,6 +44,14 @@ export const projects = {
     github: "https://github.com/jdonahue135/battleship",
     live: "https://jdonahue135.github.io/battleship/",
     photo: battleshipPhoto,
+  },
+  POMODORO_CLOCK: {
+    name: "Pomodoro Clock",
+    description: "A single page productivity app built with a partner.",
+    skills: ["Pair Programming", "DOM Manipulation", "Github workflow"],
+    github: "https://github.com/jdonahue135/pomodoro",
+    live: "https://jdonahue135.github.io/pomodoro/",
+    photo: pomodoroPhoto,
   },
 };
 

@@ -10,6 +10,7 @@ const Work = (props) => {
       <WorkItem name="Todo List" />
       <WorkItem name="Simpsons Waldo" />
       <WorkItem name="Battleship" />
+      <WorkItem name="Pomodoro Clock" />
     </div>
   );
 };
